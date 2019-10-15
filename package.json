@@ -4,8 +4,16 @@
   "description": "An experiment with node and symlinked packages",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode=development -o dist/index.js src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "react": "^16.10.2"
+  }
 }
