@@ -1,5 +1,5 @@
 {
-  "name": "symlinked-packages-first",
+  "name": "symlinked-packages-second",
   "version": "1.0.0",
   "description": "An experiment with node and symlinked packages",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
-    "react": "^16.10.2",
+    "react": "^15.0.0",
     "amazing": "file:../../packages/amazing"
   }
 }
